@@ -1,6 +1,6 @@
 ---
 name: repowiki-generator
-description: Use when the user asks to generate, refresh, or structure a codebase wiki, repository knowledge base, module documentation, architecture documentation, or agent-readable project documentation from source code.
+description: Use ONLY when the user explicitly asks to use "repowiki-generator" (or "repwiki") to generate, refresh, or structure a codebase wiki, repository knowledge base, or project documentation. Do not trigger for general or simple documentation requests.
 runAs: subagent
 effort: high
 tags: [documentation, wiki, codebase-analysis]

@@ -16,6 +16,8 @@ npx skills add hwlv/repwiki --skill repowiki-generator -g
 
 装好后，在支持 Agent Skills 的 AI 编码工具（例如 Claude Code、Trae 等）中，可以直接指示 Agent：
 > 「用 repowiki-generator 分析这个项目并生成 Wiki 知识库」
+>
+> ⚠️ **注意**：为了防止在普通的文档编写或分析任务中被误触发，此 Skill 的触发条件被配置为**必须显式提及 `repowiki-generator` 或 `repwiki` 名称**。一般的 “生成文档”、“分析项目” 等词汇不会误触发它。
 
 **更新到最新版**：
 - 更新全部全局 skill：`npx skills update -g`
